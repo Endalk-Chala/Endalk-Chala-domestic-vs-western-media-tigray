@@ -7,12 +7,27 @@ We focus on two Ethiopian state-affiliated newspapers—**Addis Zemen** and **Th
 
 Through comparative content analysis, we aim to highlight differences and similarities in conflict reporting, narrative construction, and source framing between domestic and international media.
 
----
+## Project Outcome
+
+- 📚 A portion of this research will contribute to a forthcoming book chapter in the edited volume:  
+  **“Digital Battlefields: Transforming Media Narratives in Contemporary War and Conflict”**, to be published by **Palgrave Macmillan**.
+- 🔬 The broader research will continue beyond the book chapter, aiming to produce extended analyses and multiple scholarly publications.
+
+## Acknowledgments
+
+This repository was created to promote research transparency and accessibility.  
+The datasets are intended for academic research and educational purposes.  
+If you utilize any portion of the resources provided here, please acknowledge appropriately.
+
 
 ## Researchers
 
 - **Endalkachew H. Chala**, Principal Researcher
 - **Tewodros Workneh, Ph.D.**, Principal Researcher
+
+## License
+
+This work is made available for **non-commercial, academic purposes only**.
 
 ---
 
@@ -50,27 +65,5 @@ tigray-war-news-framing-comparison/
 
 - Collection is in progress.
 - Data will be gathered using public APIs, official archives, and manual retrieval where necessary.
-
----
-
-## Project Outcome
-
-- 📚 A portion of this research will contribute to a forthcoming book chapter in the edited volume:  
-  **“Digital Battlefields: Transforming Media Narratives in Contemporary War and Conflict”**, to be published by **Palgrave Macmillan**.
-- 🔬 The broader research will continue beyond the book chapter, aiming to produce extended analyses and multiple scholarly publications.
-
----
-
-## Acknowledgments
-
-This repository was created to promote research transparency and accessibility.  
-The datasets are intended for academic research and educational purposes.  
-If you utilize any portion of the resources provided here, please acknowledge appropriately.
-
----
-
-## License
-
-This work is made available for **non-commercial, academic purposes only**.
 
 ---
