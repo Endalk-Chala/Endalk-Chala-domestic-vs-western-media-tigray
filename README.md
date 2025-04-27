@@ -31,3 +31,46 @@ tigray-war-news-framing-comparison/
 │   ├── scrape_ethiopian_herald.py
 │   ├── scrape_addis_zemen.py (future)
 ├── README.md
+
+---
+
+## Data Collection Methods
+
+### Domestic Media (Addis Zemen and The Ethiopian Herald)
+
+- Article links were collected through a combination of manual curation and Python-based scraping.
+- Tools and libraries used:
+  - `requests`
+  - `BeautifulSoup`
+  - `Selenium`
+  - `webdriver_manager`
+- Both full PDFs and preview images of front pages were archived where available.
+
+### Western Media (The New York Times and The Washington Post)
+
+- Collection is in progress.
+- Data will be gathered using public APIs, official archives, and manual retrieval where necessary.
+
+---
+
+## Project Outcome
+
+- 📚 A portion of this research will contribute to a forthcoming book chapter in the edited volume:  
+  **“Digital Battlefields: Transforming Media Narratives in Contemporary War and Conflict”**, to be published by **Palgrave Macmillan**.
+- 🔬 The broader research will continue beyond the book chapter, aiming to produce extended analyses and multiple scholarly publications.
+
+---
+
+## Acknowledgments
+
+This repository was created to promote research transparency and accessibility.  
+The datasets are intended for academic research and educational purposes.  
+If you utilize any portion of the resources provided here, please acknowledge appropriately.
+
+---
+
+## License
+
+This work is made available for **non-commercial, academic purposes only**.
+
+---
