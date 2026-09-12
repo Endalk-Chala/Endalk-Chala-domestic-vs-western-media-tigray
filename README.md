@@ -1,69 +1,72 @@
-# Media Framing of the Tigray Conflict: A Comparative Analysis of Domestic and Western News Coverage
+# Media Framing of the Tigray Conflict
 
-## Project Aim
+## Comparative analysis of Ethiopian and Western news coverage
 
-This project investigates how the Tigray conflict (2020–2022) was framed by domestic Ethiopian media and major Western outlets.  
-We focus on two Ethiopian state-affiliated newspapers—**Addis Zemen** and **The Ethiopian Herald**—and two leading Western news organizations—**The New York Times** and **The Washington Post**.
+**Status:** Ongoing research project  
+**Researchers:** Endalkachew H. Chala and Tewodros W. Workneh
 
-Through comparative content analysis, we aim to highlight differences and similarities in conflict reporting, narrative construction, and source framing between domestic and international media.
+## Study overview
 
-## Project Outcome
+This project compares how the Tigray conflict was framed by Ethiopian and Western news organizations. It examines differences in narrative construction, sourcing, political context, and conflict interpretation across domestic and international media systems.
 
-- 📚 A portion of this research will contribute to a forthcoming book chapter in the edited volume:  
-  **“Digital Battlefields: Transforming Media Narratives in Contemporary War and Conflict”**, to be published by **Palgrave Macmillan**.
-- 🔬 The broader research will continue beyond the book chapter, aiming to produce extended analyses and multiple scholarly publications.
+The project currently focuses on:
 
-## Acknowledgments
+- *Addis Zemen*;
+- *The Ethiopian Herald*;
+- *The New York Times*; and
+- *The Washington Post*.
 
-This repository was created to promote research transparency and accessibility.  
-The datasets are intended for academic research and educational purposes.  
-If you utilize any portion of the resources provided here, please acknowledge appropriately.
+## Research questions
 
+The project asks:
+
+1. How do Ethiopian and Western outlets frame the causes, actors, and consequences of the Tigray conflict?
+2. Which sources and institutions are most visible in each media system?
+3. How do conflict narratives differ across domestic and international coverage?
+4. What do these differences reveal about political communication, war reporting, and transnational media narratives?
+
+## Data and methods
+
+The project combines manual curation and computational collection of publicly available news material. Working methods include:
+
+- web scraping;
+- archival retrieval;
+- metadata collection;
+- comparative content analysis;
+- source analysis; and
+- qualitative framing analysis.
+
+Python tools used in data collection include `requests`, `BeautifulSoup`, `Selenium`, and `webdriver_manager`.
+
+## Repository structure
+
+```text
+├── data/
+│   ├── domestic/
+│   └── international/
+├── scripts/
+└── README.md
+```
+
+The repository is a working research environment. Some collections remain incomplete, and third-party article text may be withheld where redistribution would raise copyright or publisher-terms concerns.
+
+## Research output
+
+A portion of this broader research contributes to work on media narratives of contemporary war and conflict. The repository will be updated as specific outputs reach stable publication status.
+
+## Citation
+
+Until a final publication tied directly to this repository is available, cite the project as:
+
+> Chala, Endalkachew H., & Workneh, Tewodros W. *Media Framing of the Tigray Conflict: Comparative analysis of Ethiopian and Western news coverage*. GitHub research repository. https://github.com/Endalk-Chala/Endalk-Chala-domestic-vs-western-media-tigray
 
 ## Researchers
 
-- **Endalkachew H. Chala**, Principal Researcher
-- **Tewodros Workneh, Ph.D.**, Principal Researcher
+**Endalkachew H. Chala**  
+[ORCID](https://orcid.org/0000-0001-6210-6706) · [Academic website](https://endalk-chala.github.io/)
 
-## License
+**Tewodros W. Workneh**
 
-This work is made available for **non-commercial, academic purposes only**.
+## License and third-party content
 
----
-
-## Repository Structure
-
-```bash
-tigray-war-news-framing-comparison/
-├── data/
-│   ├── domestic/
-│   │   ├── addis_zemen_links.csv
-│   │   ├── ethiopian_herald_links.csv
-│   ├── international/
-│   │   ├── nyt_links.csv (coming soon)
-│   │   ├── washington_post_links.csv (coming soon)
-├── scripts/
-│   ├── scrape_ethiopian_herald.py
-│   ├── scrape_addis_zemen.py (future)
-├── README.md
-
----
-
-## Data Collection Methods
-
-### Domestic Media (Addis Zemen and The Ethiopian Herald)
-
-- Article links were collected through a combination of manual curation and Python-based scraping.
-- Tools and libraries used:
-  - `requests`
-  - `BeautifulSoup`
-  - `Selenium`
-  - `webdriver_manager`
-- Both full PDFs and preview images of front pages were archived where available.
-
-### Western Media (The New York Times and The Washington Post)
-
-- Collection is in progress.
-- Data will be gathered using public APIs, official archives, and manual retrieval where necessary.
-
----
+Original code and documentation are covered by the repository’s stated license. Copyright in news articles, images, and other third-party materials remains with the original rights holders.
